@@ -1,0 +1,25 @@
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+[params.variables]
+black = "#000"
+body_color = "#fff"
+border_color = "#ECECEC"
+icon_font = "Font Awesome 5 Free"
+light = "#EDF6F5"
+primary_color = "#0AA8A7"
+primary_font = "Lato:wght@400"
+primary_font_type = "sans-serif"
+text_color = "#777"
+text_color_dark = "#222"
+white = "#fff"
