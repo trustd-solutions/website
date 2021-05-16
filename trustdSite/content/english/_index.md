@@ -1,6 +1,6 @@
 ---
 banner:
-  title: DevOps Accelerator <br> Infrastructure without nightmares
+  title: DevOps Accelerator for all shapes <br> Infrastructure without nightmares
   image: images/banner-art.svg
   content: We provide end-to-end DevOps solutions to take care of <br> your digital
     transformation and efficient delivery
