@@ -1,7 +1,7 @@
 baseURL = "https://trustd.netlify.app"
 disqusShortname = ""
 googleAnalytics = ""
-paginate = "3"
+paginate = "6"
 summaryLength = "15"
 theme = "bigspring"
 title = "TrustD Solutions"
