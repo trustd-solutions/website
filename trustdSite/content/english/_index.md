@@ -27,9 +27,9 @@ feature:
   - name: Faster Response
     icon: fas fa-tachometer-alt
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-  - name: Cloud Support
+  - name: Cloud First
     icon: fas fa-cloud
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: We can help your business to create and manage a world-class Cloud Platform.
 service:
   enable: true
   service_item:
