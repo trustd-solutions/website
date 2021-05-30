@@ -1,10 +1,10 @@
 [en]
 contentDir = "content/english"
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+copyright = "© 2021 TrustD Solutions. All Rights Reserved"
+footer_content = "DevOps Experts to Scale up your business\vnot your costs."
 footer_menu_left = "Company"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
 languageName = "En"
 title = "TrustD Solutions"
-weight = 1
+weight = "1"
