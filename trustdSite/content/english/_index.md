@@ -47,13 +47,13 @@ service:
       enable: true
       label: Check it out
       link: "#"
-  - title: Core Expertise
+  - title: Core Tech Stack
     images:
     - images/devops-tools.png
-    content: We love Docker, Kubernetes, Cloud(Mainly AWS/GCP),  Terraform, Ansible/Chef,
-      Jenkins, Github Actions, any Software Programming language. Besides that, we
-      can also guide your team across Security, Cloud Native principles(12 factors),
-      Automation, and DevOps Mindset.
+    content: We love Docker, Kubernetes, Cloud(Mainly AWS/GCP),  Terraform, Ansible,
+      Packer, Jenkins, Github Actions, any Software Programming language. Besides
+      that, we can also guide your team across Security, Cloud Native principles(12
+      factors), and DevOps Culture.
     button:
       enable: false
       label: Check it out
