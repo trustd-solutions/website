@@ -89,7 +89,7 @@ service:
       link: "#"
 screenshot:
   enable: true
-  title: Engineering you can Trust <br> +12 years of Infra and Coding expertise
+  title: Engineering that you can Trust <br> +12 years of Infra and Coding expertise
   image: images/screenshot.svg
 call_to_action:
   enable: true
