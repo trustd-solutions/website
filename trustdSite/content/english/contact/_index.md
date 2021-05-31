@@ -1,12 +1,12 @@
 ---
 title: Contact Us
 subtitle: ''
-description: Do you want to know more, let's talk!
+description: Do you want to know more? Let's talk!
 
 ---
 ### The Engineering you can Trust, +12 years of Infra and Coding expertise.
 
-Do you want to know more, let's talk!
+Do you want to know more? Let's talk!
 
 * **Phone:**  
   \+55 1199882-0221 / 85997794661  
