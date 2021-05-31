@@ -4,7 +4,7 @@ subtitle: ''
 description: Do you want to know more? Let's talk!
 
 ---
-### The Engineering you can Trust, +12 years of Infra and Coding expertise.
+### The Engineering that you can Trust, +12 years of Infra and Coding expertise.
 
 Do you want to know more? Let's talk!
 
