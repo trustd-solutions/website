@@ -9,7 +9,7 @@ description: Do you want to know more? Let's talk!
 Do you want to know more? Let's talk!
 
 * **Phone:**  
-:flag-br: +55 1199882-0221 / 85997794661  
-:flag-us: +1 4048202125
+:brazil: +55 1199882-0221 / 85997794661  
+:us: +1 4048202125
 * **Mail:** hello@trustd.solutions
 * **Address:** 1741, Barbosa de Freitas st. Fortaleza, Brazil - ZIP: 60170021
