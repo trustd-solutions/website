@@ -20,9 +20,10 @@ feature:
     icon: fas fa-object-group
     content: Observability is no longer a dream, we bring you infra and app level
       visibility to get you covered before and during incidents.
-  - name: 24h Service
+  - name: 24x7 SRE incident response
     icon: fas fa-user-clock
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: Under our Production Readiness Review (PRR), let us wake up in the middle
+      of the night.
   - name: Value For Money
     icon: fas fa-heart
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
