@@ -47,7 +47,7 @@ service:
       enable: true
       label: Check it out
       link: "#"
-  - title: Core Tech Stack
+  - title: Core Stack
     images:
     - images/devops-tools.png
     content: We love Docker, Kubernetes, Cloud(Mainly AWS/GCP),  Terraform, Ansible,
