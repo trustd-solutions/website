@@ -14,7 +14,7 @@ feature:
   feature_item:
   - name: Everything As Code
     icon: fas fa-code
-    content: From Infra to Pipeline As Code, we build up everything through code instead
+    content: From Infra to Pipeline As Code, we build up everything from code instead
       of through manual processes
   - name: Logging and Monitoring
     icon: fas fa-object-group
