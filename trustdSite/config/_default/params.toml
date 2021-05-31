@@ -3,6 +3,7 @@ contact_form_action = "#"
 description = "DevOps Experts"
 logo = "images/logo.png"
 logo_width = "200px"
+social = []
 [navigation_button]
 enable = true
 label = "Get Started"
@@ -10,19 +11,3 @@ link = "contact"
 [preloader]
 enable = false
 preloader = ""
-[[social]]
-icon = "fab fa-facebook"
-link = "#"
-title = "facebook"
-[[social]]
-icon = "fab fa-twitter"
-link = "#"
-title = "twitter"
-[[social]]
-icon = "fab fa-skype"
-link = "#"
-title = "skype"
-[[social]]
-icon = "fab fa-linkedin"
-link = "#"
-title = "linkedin"
