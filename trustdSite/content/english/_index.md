@@ -16,9 +16,10 @@ feature:
     icon: fas fa-code
     content: From Infra to Pipeline As Code, we build up everything through code instead
       of through manual processes
-  - name: Object Oriented
+  - name: Logging and Monitoring
     icon: fas fa-object-group
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: Observability is no longer a dream, we bring you infra and app level
+      visibility to get you covered before and during incidents.
   - name: 24h Service
     icon: fas fa-user-clock
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
