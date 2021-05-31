@@ -24,9 +24,9 @@ feature:
     icon: fas fa-user-clock
     content: Under our Production Readiness Review (PRR), let us wake up in the middle
       of the night.
-  - name: Value For Money
+  - name: Open Source Collaboration
     icon: fas fa-heart
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: Our team contributes in several GH DevOps and Software projects
   - name: Faster Response
     icon: fas fa-tachometer-alt
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
