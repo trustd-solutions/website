@@ -18,8 +18,8 @@ feature:
       of through manual processes
   - name: Logging and Monitoring
     icon: fas fa-object-group
-    content: Observability is no longer a dream, we bring you infra and app level
-      visibility to get you covered before and during incidents.
+    content: Observability is no longer a dream, we bring you, infra and app-level
+      visibility to get you covered before and during incidents
   - name: 24x7 SRE incident response
     icon: fas fa-user-clock
     content: Under our Production Readiness Review (PRR), let us wake up in the middle
