@@ -1,8 +1,6 @@
+footer_left = []
 footer_middle = []
 footer_right = []
-[[footer_left]]
-name = "About Us"
-url = "#"
 [[main]]
 name = "Home"
 url = "/"
