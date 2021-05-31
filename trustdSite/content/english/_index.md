@@ -37,54 +37,25 @@ feature:
 service:
   enable: true
   service_item:
-  - title: It is the most advanced digital marketing and it company.
-    images:
-    - images/service-1.png
-    - images/service-2.png
-    - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
-    button:
-      enable: true
-      label: Check it out
-      link: "#"
-  - title: It is a privately owned Information and cyber security company
-    images:
-    - images/service-1.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
-    button:
-      enable: true
-      label: Check it out
-      link: "#"
-  - title: It’s a team of experienced and skilled people with distributions
+  - title: It’s a team of experienced and skilled people
     images:
     - images/service-2.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: |-
+      We are an experienced team, composed of Cloud, Software, and Infrastructure Architects focused on delivering quality and simplified tech stacks for our clients.
+      For each new project, we promote internally a meeting called Trust Engineering Board (TEB), in which we discuss the client's needs, requirements, and what's the best design and solution to accelerate the project.
     button:
       enable: true
       label: Check it out
       link: "#"
-  - title: A company standing different from others
+  - title: Core Expertise
     images:
-    - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    - images/devops-tools.png
+    content: We love Docker, Kubernetes, Cloud(Mainly AWS/GCP),  Terraform, Ansible/Chef,
+      Jenkins, Github Actions, any Software Programming language. Besides that, we
+      can also guide your team across Security, Cloud Native principles(12 factors),
+      Automation, and DevOps Mindset.
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: "#"
 screenshot:
