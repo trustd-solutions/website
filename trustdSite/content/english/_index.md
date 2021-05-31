@@ -44,7 +44,7 @@ service:
       We are an experienced team, composed of Cloud, Software, and Infrastructure Architects focused on delivering quality and simplified tech stacks for our clients.
       For each new project, we promote internally a meeting called Trust Engineering Board (TEB), in which we discuss the client's needs, requirements, and what's the best design and solution to accelerate the project.
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: "#"
   - title: Core Stack
