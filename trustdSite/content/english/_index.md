@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "DevOps Accelerator for all shapes <br> Scale your business\vnot your costs"
+  title: "DevOps Accelerator for all shapes. <br> Scale your business,\vnot your costs."
   image: images/banner-art.svg
   content: We provide end-to-end DevOps solutions to take care of <br> your digital
     transformation and efficient delivery
@@ -14,16 +14,16 @@ feature:
   feature_item:
   - name: Everything As Code
     icon: fas fa-code
-    content: From Infra to Pipeline As Code, we build up everything through code instead
+    content: From Infra to Pipeline As Code, we build up everything from code instead
       of through manual processes
   - name: Logging and Monitoring
     icon: fas fa-object-group
-    content: Observability is no longer a dream, we bring you infra and app level
-      visibility to get you covered before and during incidents.
-  - name: 24x7 SRE incident response
+    content: Observability is no longer a dream, we bring you, infra and app-level
+      visibility to get you covered before and during incidents
+  - name: SRE 24x7 incident response
     icon: fas fa-user-clock
     content: Under our Production Readiness Review (PRR), let us wake up in the middle
-      of the night.
+      of the night
   - name: Open Source Collaboration
     icon: fas fa-heart
     content: Our team contributes in several GH DevOps and Software projects
@@ -89,14 +89,14 @@ service:
       link: "#"
 screenshot:
   enable: true
-  title: Engineering you can Trust <br> +12 years of Infra and Coding expertise
+  title: Engineering that you can Trust <br> +12 years of Infra and Coding expertise
   image: images/screenshot.svg
 call_to_action:
   enable: true
   title: Ready to get started?
   image: images/cta.svg
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+  content: We provide you, less time spent experimenting with tooling and more time
+    actually shipping products to market.
   button:
     enable: true
     label: Contact Us
