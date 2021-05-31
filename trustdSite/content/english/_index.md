@@ -27,9 +27,10 @@ feature:
   - name: Open Source Collaboration
     icon: fas fa-heart
     content: Our team contributes in several GH DevOps and Software projects
-  - name: Faster Response
+  - name: Continuous Integration/Deployment
     icon: fas fa-tachometer-alt
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: Automate your deployments with Security, Quality checks and zero-downtime
+      on rollout/rollbacks to multiple environments
   - name: Cloud First
     icon: fas fa-cloud
     content: We can help your business to create and manage a world-class Cloud Platform.
