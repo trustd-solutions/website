@@ -95,8 +95,8 @@ call_to_action:
   enable: true
   title: Ready to get started?
   image: images/cta.svg
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+  content: We provide you, less time spent experimenting with tooling and more time
+    actually shipping products to market.
   button:
     enable: true
     label: Contact Us
