@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "DevOps Accelerator for all shapes. <br> Scale your business,\vnot your costs."
+  title: "DevOps Accelerator for all shapes. <br> Scale your business,\v not your costs."
   image: images/banner-art.svg
   content: We provide end-to-end DevOps solutions to take care of <br> your digital
     transformation and efficient delivery
@@ -14,7 +14,7 @@ feature:
   feature_item:
   - name: Everything As Code
     icon: fas fa-code
-    content: From Infra to Pipeline As Code, we build up everything from code instead
+    content: From Infrastructure to Pipeline As Code, we build up everything from code instead
       of through manual processes
   - name: Logging and Monitoring
     icon: fas fa-object-group
