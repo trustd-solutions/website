@@ -32,7 +32,7 @@ professional:
     link: "#"
 business:
   name: Business Plan
-  price: "$49"
+  price: "$59"
   price_per: month
   info: Best For Large Individuals
   services:
@@ -54,9 +54,12 @@ call_to_action:
     label: Contact Us
     link: contact
 
----
+
 | Competition   | TrustD Pro    |
 | ------------- |:-------------:|
 | col 3 is      | right-aligned |
 | col 2 is      | centered      |
 | zebra stripes | are neat      |
+
+
+---
