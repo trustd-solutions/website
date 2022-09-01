@@ -54,6 +54,8 @@ call_to_action:
     label: Contact Us
     link: contact
 
+---
+
 
 | Competition   | TrustD Pro    |
 | ------------- |:-------------:|
@@ -62,4 +64,3 @@ call_to_action:
 | zebra stripes | are neat      |
 
 
----
