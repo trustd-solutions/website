@@ -3,6 +3,9 @@ footer_right = []
 [[footer_left]]
 name = "Home"
 url = "/"
+[[footer_left]]
+name = "Contact"
+url = "contact"
 [[main]]
 name = "Home"
 url = "/"
