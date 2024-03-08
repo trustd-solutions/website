@@ -1,6 +1,7 @@
 # Easy Setup (Hugo + Netlify + Forestry)
 Build your website with bigspring theme by following this easy steps (No Coding Required)
 
+
 _Checkout this video tutorial_
 <a href="https://youtu.be/ResipmZmpDU" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/103056582-88270880-45c7-11eb-9124-ab17bae951ec.png"></a>
 
