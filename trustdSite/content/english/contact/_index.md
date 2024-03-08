@@ -12,4 +12,5 @@ Do you want to know more? Let's talk!
   Brazil  +55 (85) 997794661
   US +1 4048202125
 * **Mail:** hello@trustd.solutions
-* **Address:** 1741, Barbosa de Freitas st. Fortaleza, Brazil - ZIP: 60170021
+* **Brazil Office:** 1741, Barbosa de Freitas st. Fortaleza 60170021 Brazil 
+* **US Office:** 8, The Green STE R Dover Delaware 19901 United States
