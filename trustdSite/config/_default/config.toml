@@ -1,9 +1,0 @@
-baseURL = "https://trustd.netlify.app"
-disqusShortname = ""
-googleAnalytics = ""
-paginate = "6"
-summaryLength = "15"
-theme = "bigspring"
-title = "TrustD Solutions"
-[markup.goldmark.renderer]
-unsafe = true
