@@ -1,9 +1,8 @@
 ---
-name: Deploy to GitHub Pages
+name: Deploy Hugo site to Pages
 on:
   push:
-    branches:
-      - main
+    branches: ["master"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.141.0
+      HUGO_VERSION: 0.128.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -31,7 +30,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -41,17 +39,14 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
         run: |
           hugo \
-            --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-
   deploy:
     environment:
       name: github-pages
