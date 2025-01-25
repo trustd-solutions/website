@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" .}}
+
+  <body>
+    {{ partial "header.html" .}}
+
+    <main id="main">
+      {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+      {{ end }}
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    {{ partial "footer.html" .}}
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <script>
+      const carousel = document.querySelector(".carousel");
+      const slides = document.querySelectorAll(".slide");
+      const prevButton = document.querySelector(".prev");
+      const nextButton = document.querySelector(".next");
+
+      let currentIndex = 0;
+      const slidesPerView = 3;
+      const totalSlides = slides.length;
+
+      function updateCarousel() {
+        const slideWidth = slides[0].offsetWidth + 20; // Including margin
+        carousel.style.transform = `translateX(-${
+          currentIndex * slideWidth
+        }px)`;
+      }
+
+      prevButton.addEventListener("click", () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          updateCarousel();
+        }
+      });
+
+      nextButton.addEventListener("click", () => {
+        if (currentIndex < totalSlides - slidesPerView) {
+          currentIndex++;
+          updateCarousel();
+        }
+      });
+
+      // Initial setup
+      updateCarousel();
+
+      // Update on resize
+      window.addEventListener("resize", updateCarousel);
+    </script>
+
+    {{ partial "script.html" .}}
+  </body>
+</html>
