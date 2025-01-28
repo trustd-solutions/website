@@ -1,3 +1,3 @@
 ---
-title: TrustD | Home
+title: TrustD Solutions
 ---
