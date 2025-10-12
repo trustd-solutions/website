@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="lead">{{ . }}</p>
+      {{ end }}
+      <p class="taxonomy-meta">{{ len .Pages }} {{ if eq (len .Pages) 1 }}item{{ else }}items{{ end }} in this {{ .Type }}</p>
+    </header>
+
+    {{ if .Pages }}
+    <div class="page-list">
+      {{ range .Pages }}
+      <article class="list-item">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ with .Description }}
+        <p>{{ . }}</p>
+        {{ end }}
+        {{ with .Summary }}
+        <p>{{ . }}</p>
+        {{ end }}
+        <div class="meta">
+          {{ with .Date }}
+          <span class="date">{{ .Format "January 2, 2006" }}</span>
+          {{ end }}
+        </div>
+        <a href="{{ .RelPermalink }}" class="btn btn-secondary">Read More</a>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

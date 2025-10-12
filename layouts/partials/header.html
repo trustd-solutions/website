@@ -1,24 +1,42 @@
 <!-- ======= Header ======= -->
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script
+    src="https://assets.calendly.com/assets/external/widget.js"
+    type="text/javascript"
+    async
+></script>
 <header id="header" class="fixed-top d-flex align-items-center">
-  <div class="container d-flex align-items-center justify-content-between">
-    <div class="logo">
-      <a href="/"
-        ><img src="/assets/img/logo.png" alt="" class="img-fluid"
-      /></a>
-    </div>
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+            <a href="/"
+                ><img
+                    src="/assets/img/logo.png"
+                    alt="TrustD Solutions"
+                    class="img-fluid"
+            /></a>
+        </div>
 
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="active" href="/">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a class="getstarted" href="" class="black" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd/30min'});return false;">Lets Talk!</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav>
-    <!-- .navbar -->
-  </div>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li>
+                    <a class="nav-link {{ if .IsHome }}active{{ end }}" href="/"
+                        >Home</a
+                    >
+                </li>
+                {{ range .Site.Menus.main }}
+                <li><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+                <li>
+                    <a
+                        class="getstarted"
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd?hide_gdpr_banner=1'});return false;"
+                        >Let's Talk!</a
+                    >
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+    </div>
 </header>
 <!-- End Header -->

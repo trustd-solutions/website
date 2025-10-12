@@ -1,0 +1,10 @@
+{{ $items := split (.Get "items") "|" }}
+{{ $notes := split (.Get "notes") "|" }}
+<ol class="steps">
+  {{ range $i, $step := $items }}
+    <li>
+      <strong>{{ $step }}</strong>
+      {{ with index $notes $i }}<div class="note">{{ . }}</div>{{ end }}
+    </li>
+  {{ end }}
+</ol>
