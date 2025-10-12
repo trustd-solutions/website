@@ -7,5 +7,47 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everything as Code</title>
+      <link>http://localhost:1313/services/everything-as-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/everything-as-code/</guid>
+      <description>&lt;p&gt;We define everything as code, from infrastructure to CI/CD pipelines, ensuring automation, consistency, and repeatability—eliminating manual inefficiencies&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Logging and Monitoring</title>
+      <link>http://localhost:1313/services/logging-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/logging-monitoring/</guid>
+      <description>&lt;p&gt;Observability is a reality. We provide full-stack visibility into your infrastructure and applications, helping you detect, troubleshoot, and prevent incidents before they impact your business.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SRE 24×7 Incident Response</title>
+      <link>http://localhost:1313/services/sre-24x7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/sre-24x7/</guid>
+      <description>&lt;p&gt;With our Production Readiness Review (PRR) and 24×7 incident response, we ensure reliability, so you don&amp;rsquo;t have to wake up for midnight outages—we&amp;rsquo;ve got it covered&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source Collaboration</title>
+      <link>http://localhost:1313/services/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/open-source/</guid>
+      <description>&lt;p&gt;We actively contribute to open-source DevOps and software projects, driving innovation and giving back to the community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>http://localhost:1313/services/cicd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/cicd/</guid>
+      <description>&lt;p&gt;Achieve seamless deployments with automated security, quality checks, and zero-downtime rollouts and rollbacks across multiple environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud First</title>
+      <link>http://localhost:1313/services/cloud-first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/cloud-first/</guid>
+      <description>&lt;p&gt;We help businesses architect and manage scalable, secure, and high-performance cloud platforms tailored to their needs.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
