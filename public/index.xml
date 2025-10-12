@@ -6,71 +6,7 @@
     <description>Recent content in Embedded engineering teams for fast-moving startups. on TrustD Solutions</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Infrastructure as Code</title>
-      <link>http://localhost:1313/services/infrastructure-as-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/infrastructure-as-code/</guid>
-      <description>Terraform, Pulumi, CloudFormation — we codify your entire cloud so infrastructure is versioned, repeatable, and auditable.</description>
-    </item>
-    <item>
-      <title>CI/CD Pipelines</title>
-      <link>http://localhost:1313/services/cicd-pipelines/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/cicd-pipelines/</guid>
-      <description>GitHub Actions, GitLab CI, CircleCI — automated testing, security scanning, and zero-downtime deployments.</description>
-    </item>
-    <item>
-      <title>Monitoring &amp; Observability</title>
-      <link>http://localhost:1313/services/monitoring-observability/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/monitoring-observability/</guid>
-      <description>Datadog, Prometheus, Grafana, Sentry — full-stack visibility from code to cloud.</description>
-    </item>
-    <item>
-      <title>Kubernetes &amp; Containers</title>
-      <link>http://localhost:1313/services/kubernetes-containers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/kubernetes-containers/</guid>
-      <description>EKS, GKE, AKS — we design, deploy, and maintain scalable container orchestration platforms.</description>
-    </item>
-    <item>
-      <title>Security &amp; Compliance</title>
-      <link>http://localhost:1313/services/security-compliance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/security-compliance/</guid>
-      <description>SOC 2, HIPAA, PCI-DSS — we architect and audit infrastructure to meet regulatory standards.</description>
-    </item>
-    <item>
-      <title>24×7 Incident Response</title>
-      <link>http://localhost:1313/services/incident-response/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/incident-response/</guid>
-      <description>On-call rotations, runbook automation, and post-mortems — we own production reliability so you can sleep.</description>
-    </item>
-    <item>
-      <title>SaaS Platform: CI/CD Overhaul &amp; 24×7 On-Call</title>
-      <link>http://localhost:1313/case-studies/saas-platform-cicd/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/case-studies/saas-platform-cicd/</guid>
-      <description>Redesigned CI/CD pipelines, added full-stack monitoring, and took over 24×7 on-call — cutting deploy time by 70% and incident MTTR by 60%.</description>
-    </item>
-    <item>
-      <title>Fintech Startup: Zero-Downtime Kubernetes Migration</title>
-      <link>http://localhost:1313/case-studies/fintech-startup-kubernetes/</link>
-      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/case-studies/fintech-startup-kubernetes/</guid>
-      <description>Migrated a monolithic Ruby on Rails app to Kubernetes with zero downtime, cutting infrastructure costs by 40% and achieving SOC 2 compliance.</description>
-    </item>
-    <item>
-      <title>E-Commerce Platform: Infrastructure as Code from Scratch</title>
-      <link>http://localhost:1313/case-studies/ecommerce-infra-code/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/case-studies/ecommerce-infra-code/</guid>
-      <description>Built production-ready AWS infrastructure from scratch using Terraform — launched in 4 weeks with full CI/CD and monitoring.</description>
-    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
