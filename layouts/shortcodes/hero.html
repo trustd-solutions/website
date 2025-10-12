@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero" id="hero-section">
   <div class="container">
     <h1>{{ .Get "title" }}</h1>
     {{ with .Get "subtitle" }}<p class="subtitle">{{ . }}</p>{{ end }}
@@ -7,4 +7,9 @@
       {{ with .Get "secondary_text" }}<a class="btn btn-secondary" href='{{ $.Get "secondary_href" }}'>{{ . }}</a>{{ end }}
     </div>
   </div>
+  <a href="#content-start" class="scroll-indicator" aria-label="Scroll to content">
+    <span>↓</span>
+  </a>
 </section>
+
+<div id="content-start"></div>

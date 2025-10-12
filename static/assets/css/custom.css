@@ -4,8 +4,55 @@
 
 /* Layout & Structure */
 .hero {
-    padding: 6rem 0;
+    padding: 4rem 0;
     text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Scroll indicator */
+.scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: var(--primary-color, #007bff);
+    text-decoration: none;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    animation: bounce 2s infinite;
+    z-index: 10;
+}
+
+.scroll-indicator:hover {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.2);
+}
+
+.scroll-indicator span {
+    display: block;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+    60% {
+        transform: translateX(-50%) translateY(-5px);
+    }
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
 }
 
 .section {
@@ -20,6 +67,15 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+.hero .subtitle {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
 }
 
 /* Buttons */
@@ -261,6 +317,12 @@ form .hidden {
 @media (max-width: 768px) {
     .hero {
         padding: 3rem 0;
+        min-height: 50vh;
+    }
+    
+    .scroll-indicator {
+        bottom: 1rem;
+        font-size: 1.5rem;
     }
 
     .section {
@@ -524,6 +586,41 @@ form .hidden {
 
 .home-content {
     /* Ensure shortcodes render properly */
+}
+
+/* =====================================================
+   Services Page Styling
+   ===================================================== */
+
+.section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.section strong {
+    font-weight: 600;
+}
+
+/* Service sections spacing */
+.section + .section {
+    margin-top: 4rem;
+}
+
+/* Center CTA buttons in sections */
+.section .btn {
+    display: inline-block;
+}
+
+.section[center] .btn,
+.section.center .btn {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 /* =====================================================
