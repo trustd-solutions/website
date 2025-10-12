@@ -6,7 +6,7 @@
     <description>Recent content in Embedded engineering teams for fast-moving startups. on TrustD Solutions</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Infrastructure as Code</title>
@@ -49,13 +49,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/incident-response/</guid>
       <description>On-call rotations, runbook automation, and post-mortems — we own production reliability so you can sleep.</description>
-    </item>
-    <item>
-      <title>Why Every Startup Needs Infrastructure as Code (Even Pre-Product)</title>
-      <link>http://localhost:1313/blog/why-infrastructure-as-code/</link>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/why-infrastructure-as-code/</guid>
-      <description>Manual infrastructure doesn&amp;rsquo;t scale. Here&amp;rsquo;s why you should codify your cloud from day one — and how to get started.</description>
     </item>
     <item>
       <title>SaaS Platform: CI/CD Overhaul &amp; 24×7 On-Call</title>
@@ -118,7 +111,7 @@
       <link>http://localhost:1313/thanks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/thanks/</guid>
-      <description>&lt;h2 id=&#34;message-received&#34;&gt;Message Received&lt;/h2&gt;&#xA;&lt;p&gt;Thanks for reaching out! We&amp;rsquo;ll review your message and get back to you within 24 hours (usually much faster).&lt;/p&gt;&#xA;&lt;p&gt;In the meantime, check out:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/services/&#34;&gt;Our Services&lt;/a&gt; — see what we do&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/case-studies/&#34;&gt;Case Studies&lt;/a&gt; — real projects, real results&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/&#34;&gt;Blog&lt;/a&gt; — DevOps insights and tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Or just &lt;a href=&#34;https://calendly.com/lucas-trustd/30min&#34;&gt;book a call directly&lt;/a&gt; — we&amp;rsquo;re here to help.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;← Back to Home&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;message-received&#34;&gt;Message Received&lt;/h2&gt;&#xA;&lt;p&gt;Thanks for reaching out! We&amp;rsquo;ll review your message and get back to you within 24 hours (usually much faster).&lt;/p&gt;&#xA;&lt;p&gt;In the meantime, check out:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/services/&#34;&gt;Our Services&lt;/a&gt; — see what we do&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/case-studies/&#34;&gt;Case Studies&lt;/a&gt; — real projects, real results&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/about/&#34;&gt;About Us&lt;/a&gt; — learn more about TrustD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Or just &lt;a href=&#34;https://calendly.com/lucas-trustd?hide_gdpr_banner=1&#34;&gt;book a call directly&lt;/a&gt; with our Calendly link — we&amp;rsquo;re here to help.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;← Back to Home&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -11,8 +11,8 @@ In the meantime, check out:
 
 - [Our Services](/services/) — see what we do
 - [Case Studies](/case-studies/) — real projects, real results
-- [Blog](/blog/) — DevOps insights and tutorials
+- [About Us](/about/) — learn more about TrustD
 
-Or just [book a call directly](https://calendly.com/lucas-trustd/30min) — we're here to help.
+Or just [book a call directly](https://calendly.com/lucas-trustd?hide_gdpr_banner=1) with our Calendly link — we're here to help.
 
 [← Back to Home](/)

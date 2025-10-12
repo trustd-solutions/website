@@ -13,8 +13,7 @@ images: ["/img/og-default.jpg"]
 {{<hero
 title="Embedded engineering teams for fast-moving startups."
 subtitle="TrustD helps startups scale their engineering capacity with battle-tested DevOps, QA, and software engineers who integrate directly into your team and deliver outcomes from day one."
-primary_text="Let's Talk" primary_href="/contact/"
-secondary_text="View Services" secondary_href="/services/"
+primary_text="View Services" primary_href="/services/"
 >}}
 
 {{<section title="Engineering without the overhead.">}}
