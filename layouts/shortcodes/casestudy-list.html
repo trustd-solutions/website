@@ -1,0 +1,14 @@
+<div class="cs-grid">
+  {{ $pages := where .Page.Site.RegularPages "Section" "case-studies" }}
+  {{ range $pages }}
+    <article class="cs-card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+      <ul class="meta">
+        {{ with .Params.client_type }}<li><strong>Client:</strong> {{ . }}</li>{{ end }}
+        {{ with .Params.engagement }}<li><strong>Engagement:</strong> {{ . }}</li>{{ end }}
+      </ul>
+      <a class="btn btn-secondary" href="{{ .RelPermalink }}">Read More</a>
+    </article>
+  {{ end }}
+</div>

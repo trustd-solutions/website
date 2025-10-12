@@ -1,3 +1,36 @@
-baseURL = 'https://trustd.solutions/'
-languageCode = 'en-us'
-title = 'TrustD'
+baseURL = "https://trustd.solutions/"
+languageCode = "en-us"
+title = "TrustD Solutions"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Embedded engineering teams for fast-moving startups."
+  images = ["/img/og-default.jpg"]
+  author = "TrustD Solutions"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Menus
+[menu]
+  [[menu.main]]
+    name = "Services"
+    url  = "/services/"
+    weight = 10
+  [[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 20
+  [[menu.main]]
+    name = "Case Studies"
+    url  = "/case-studies/"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 40

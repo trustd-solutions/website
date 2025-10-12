@@ -1,0 +1,9 @@
+{{- $title := .Get "title" -}}
+{{- $icon := .Get "icon" -}}
+<div class="service-card">
+  {{ with $icon }}<span class="icon">{{ . }}</span>{{ end }}
+  <h3>{{ $title }}</h3>
+  <div class="content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<section class="section {{ if .Get "center" }}center{{ end }}">
+  <div class="container">
+    {{ with .Get "title" }}<h2>{{ . }}</h2>{{ end }}
+    <div class="section-body">{{ .Inner }}</div>
+  </div>
+</section>

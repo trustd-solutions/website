@@ -1,0 +1,10 @@
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Get "title" }}</h1>
+    {{ with .Get "subtitle" }}<p class="subtitle">{{ . }}</p>{{ end }}
+    <div class="cta-row">
+      {{ with .Get "primary_text" }}<a class="btn btn-primary" href='{{ $.Get "primary_href" }}'>{{ . }}</a>{{ end }}
+      {{ with .Get "secondary_text" }}<a class="btn btn-secondary" href='{{ $.Get "secondary_href" }}'>{{ . }}</a>{{ end }}
+    </div>
+  </div>
+</section>

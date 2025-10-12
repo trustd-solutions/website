@@ -1,53 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TrustD Solutions on TrustD</title>
+    <title>Embedded engineering teams for fast-moving startups. on TrustD Solutions</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in TrustD Solutions on TrustD</description>
+    <description>Recent content in Embedded engineering teams for fast-moving startups. on TrustD Solutions</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Everything as Code</title>
-      <link>http://localhost:1313/services/everything-as-code/</link>
+      <title>Infrastructure as Code</title>
+      <link>http://localhost:1313/services/infrastructure-as-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/everything-as-code/</guid>
-      <description>&lt;p&gt;We define everything as code, from infrastructure to CI/CD pipelines, ensuring automation, consistency, and repeatability—eliminating manual inefficiencies&lt;/p&gt;</description>
+      <guid>http://localhost:1313/services/infrastructure-as-code/</guid>
+      <description>Terraform, Pulumi, CloudFormation — we codify your entire cloud so infrastructure is versioned, repeatable, and auditable.</description>
     </item>
     <item>
-      <title>Logging and Monitoring</title>
-      <link>http://localhost:1313/services/logging-monitoring/</link>
+      <title>CI/CD Pipelines</title>
+      <link>http://localhost:1313/services/cicd-pipelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/logging-monitoring/</guid>
-      <description>&lt;p&gt;Observability is a reality. We provide full-stack visibility into your infrastructure and applications, helping you detect, troubleshoot, and prevent incidents before they impact your business.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/services/cicd-pipelines/</guid>
+      <description>GitHub Actions, GitLab CI, CircleCI — automated testing, security scanning, and zero-downtime deployments.</description>
     </item>
     <item>
-      <title>SRE 24×7 Incident Response</title>
-      <link>http://localhost:1313/services/sre-24x7/</link>
+      <title>Monitoring &amp; Observability</title>
+      <link>http://localhost:1313/services/monitoring-observability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/sre-24x7/</guid>
-      <description>&lt;p&gt;With our Production Readiness Review (PRR) and 24×7 incident response, we ensure reliability, so you don&amp;rsquo;t have to wake up for midnight outages—we&amp;rsquo;ve got it covered&lt;/p&gt;</description>
+      <guid>http://localhost:1313/services/monitoring-observability/</guid>
+      <description>Datadog, Prometheus, Grafana, Sentry — full-stack visibility from code to cloud.</description>
     </item>
     <item>
-      <title>Open Source Collaboration</title>
-      <link>http://localhost:1313/services/open-source/</link>
+      <title>Kubernetes &amp; Containers</title>
+      <link>http://localhost:1313/services/kubernetes-containers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/open-source/</guid>
-      <description>&lt;p&gt;We actively contribute to open-source DevOps and software projects, driving innovation and giving back to the community.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/services/kubernetes-containers/</guid>
+      <description>EKS, GKE, AKS — we design, deploy, and maintain scalable container orchestration platforms.</description>
     </item>
     <item>
-      <title>CI/CD</title>
-      <link>http://localhost:1313/services/cicd/</link>
+      <title>Security &amp; Compliance</title>
+      <link>http://localhost:1313/services/security-compliance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/cicd/</guid>
-      <description>&lt;p&gt;Achieve seamless deployments with automated security, quality checks, and zero-downtime rollouts and rollbacks across multiple environments.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/services/security-compliance/</guid>
+      <description>SOC 2, HIPAA, PCI-DSS — we architect and audit infrastructure to meet regulatory standards.</description>
     </item>
     <item>
-      <title>Cloud First</title>
-      <link>http://localhost:1313/services/cloud-first/</link>
+      <title>24×7 Incident Response</title>
+      <link>http://localhost:1313/services/incident-response/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/cloud-first/</guid>
-      <description>&lt;p&gt;We help businesses architect and manage scalable, secure, and high-performance cloud platforms tailored to their needs.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/services/incident-response/</guid>
+      <description>On-call rotations, runbook automation, and post-mortems — we own production reliability so you can sleep.</description>
+    </item>
+    <item>
+      <title>Why Every Startup Needs Infrastructure as Code (Even Pre-Product)</title>
+      <link>http://localhost:1313/blog/why-infrastructure-as-code/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-infrastructure-as-code/</guid>
+      <description>Manual infrastructure doesn&amp;rsquo;t scale. Here&amp;rsquo;s why you should codify your cloud from day one — and how to get started.</description>
+    </item>
+    <item>
+      <title>SaaS Platform: CI/CD Overhaul &amp; 24×7 On-Call</title>
+      <link>http://localhost:1313/case-studies/saas-platform-cicd/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/saas-platform-cicd/</guid>
+      <description>Redesigned CI/CD pipelines, added full-stack monitoring, and took over 24×7 on-call — cutting deploy time by 70% and incident MTTR by 60%.</description>
+    </item>
+    <item>
+      <title>Fintech Startup: Zero-Downtime Kubernetes Migration</title>
+      <link>http://localhost:1313/case-studies/fintech-startup-kubernetes/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/fintech-startup-kubernetes/</guid>
+      <description>Migrated a monolithic Ruby on Rails app to Kubernetes with zero downtime, cutting infrastructure costs by 40% and achieving SOC 2 compliance.</description>
+    </item>
+    <item>
+      <title>E-Commerce Platform: Infrastructure as Code from Scratch</title>
+      <link>http://localhost:1313/case-studies/ecommerce-infra-code/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/ecommerce-infra-code/</guid>
+      <description>Built production-ready AWS infrastructure from scratch using Terraform — launched in 4 weeks with full CI/CD and monitoring.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!-- Calendly CSS --&gt;&#xA;&lt;link href=&#34;https://assets.calendly.com/assets/external/widget.css&#34; rel=&#34;stylesheet&#34;&gt;&#xA;&lt;script src=&#34;https://assets.calendly.com/assets/external/widget.js&#34; type=&#34;text/javascript&#34; async&gt;&lt;/script&gt;&#xA;&lt;section class=&#34;hero&#34;&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;h1&gt;Built by engineers, for startups.&lt;/h1&gt;&#xA;    &lt;p class=&#34;subtitle&#34;&gt;We&amp;#39;ve spent years building, scaling, and operating platforms for startups across the US. We know what high-velocity teams need: clarity, reliability, and embedded experts who deliver from day one.&lt;/p&gt;&#xA;    &lt;div class=&#34;cta-row&#34;&gt;&#xA;      &lt;a class=&#34;btn btn-primary&#34; href=&#39;http://localhost:1313/contact/&#39;&gt;Work With Us&lt;/a&gt;&#xA;      &#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section class=&#34;section &#34;&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;h2&gt;Our Mission&lt;/h2&gt;&#xA;    &lt;div class=&#34;section-body&#34;&gt;&#xA;&lt;p&gt;&lt;strong&gt;We help startups build, ship, and scale — without slowing down.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;TrustD makes it easy for founders and engineering leaders to get world-class DevOps and software talent that embeds directly into their teams. No red tape. No handoffs. Just engineers who get it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;!-- Calendly CSS --&gt;&#xA;&lt;link href=&#34;https://assets.calendly.com/assets/external/widget.css&#34; rel=&#34;stylesheet&#34;&gt;&#xA;&lt;script src=&#34;https://assets.calendly.com/assets/external/widget.js&#34; type=&#34;text/javascript&#34; async&gt;&lt;/script&gt;&#xA;&lt;section class=&#34;hero&#34;&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;h1&gt;Let&amp;#39;s build something together.&lt;/h1&gt;&#xA;    &lt;p class=&#34;subtitle&#34;&gt;Scaling your team, cleaning up your cloud, or launching your next product — TrustD&amp;#39;s engineers are ready to help. Book a call and let&amp;#39;s talk.&lt;/p&gt;&#xA;    &lt;div class=&#34;cta-row&#34;&gt;&#xA;      &lt;a class=&#34;btn btn-primary&#34; href=&#39;#calendly-link&#39;&gt;Book a Call&lt;/a&gt;&#xA;      &#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section class=&#34;section &#34;&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;h2&gt;Here&amp;#39;s how it works.&lt;/h2&gt;&#xA;    &lt;div class=&#34;section-body&#34;&gt;&#xA;&#xA;&#xA;&lt;ol class=&#34;steps&#34;&gt;&#xA;  &#xA;    &lt;li&gt;&#xA;      &lt;strong&gt;You tell us what you need.&lt;/strong&gt;&#xA;      &lt;div class=&#34;note&#34;&gt;A DevOps engineer? A full pod?&lt;/div&gt;&#xA;    &lt;/li&gt;&#xA;  &#xA;    &lt;li&gt;&#xA;      &lt;strong&gt;We schedule a quick intro call.&lt;/strong&gt;&#xA;      &lt;div class=&#34;note&#34;&gt;15–30 minutes to align goals and timelines.&lt;/div&gt;&#xA;    &lt;/li&gt;&#xA;  &#xA;    &lt;li&gt;&#xA;      &lt;strong&gt;You meet your engineers.&lt;/strong&gt;&#xA;      &lt;div class=&#34;note&#34;&gt;Candidates ready to embed within days.&lt;/div&gt;&#xA;    &lt;/li&gt;&#xA;  &#xA;&lt;/ol&gt;&#xA;&#xA;&#xA;&lt;p style=&#34;font-style: italic; color: #666; margin-top: 2rem;&#34;&gt;Fast, flexible, and founder-led. You&#39;ll talk directly with someone who&#39;s been in your shoes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DevOps Placement for a Healthtech Platform</title>
+      <link>http://localhost:1313/case-studies/healthtech-devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/healthtech-devops/</guid>
+      <description>CI/CD standardization, observability, and AWS cost reductions.</description>
+    </item>
+    <item>
+      <title>Full Development Pod for a Fintech Startup</title>
+      <link>http://localhost:1313/case-studies/fintech-pod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/fintech-pod/</guid>
+      <description>2× faster releases, 60% fewer incidents.</description>
+    </item>
+    <item>
+      <title>Infrastructure Modernization for an Insuretech</title>
+      <link>http://localhost:1313/case-studies/insuretech-modernization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/insuretech-modernization/</guid>
+      <description>Terraform migration, observability, 0 rollback incidents.</description>
+    </item>
+    <item>
+      <title>Thank You!</title>
+      <link>http://localhost:1313/thanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thanks/</guid>
+      <description>&lt;h2 id=&#34;message-received&#34;&gt;Message Received&lt;/h2&gt;&#xA;&lt;p&gt;Thanks for reaching out! We&amp;rsquo;ll review your message and get back to you within 24 hours (usually much faster).&lt;/p&gt;&#xA;&lt;p&gt;In the meantime, check out:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/services/&#34;&gt;Our Services&lt;/a&gt; — see what we do&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/case-studies/&#34;&gt;Case Studies&lt;/a&gt; — real projects, real results&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/&#34;&gt;Blog&lt;/a&gt; — DevOps insights and tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Or just &lt;a href=&#34;https://calendly.com/lucas-trustd/30min&#34;&gt;book a call directly&lt;/a&gt; — we&amp;rsquo;re here to help.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;← Back to Home&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

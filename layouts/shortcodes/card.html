@@ -1,0 +1,6 @@
+<div class="card">
+    {{ with .Get "title" }}
+    <h3>{{ . }}</h3>
+    {{ end }}
+    <div class="card-body">{{ .Inner }}</div>
+</div>
