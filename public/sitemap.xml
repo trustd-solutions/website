@@ -2,52 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/services/infrastructure-as-code/</loc>
-  </url><url>
-    <loc>http://localhost:1313/services/cicd-pipelines/</loc>
-  </url><url>
-    <loc>http://localhost:1313/services/monitoring-observability/</loc>
-  </url><url>
-    <loc>http://localhost:1313/services/kubernetes-containers/</loc>
-  </url><url>
-    <loc>http://localhost:1313/services/security-compliance/</loc>
-  </url><url>
-    <loc>http://localhost:1313/services/incident-response/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/best-practices/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/infrastructure-as-code/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/terraform/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/why-infrastructure-as-code/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/case-studies/</loc>
-    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/case-studies/saas-platform-cicd/</loc>
-    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/case-studies/fintech-startup-kubernetes/</loc>
-    <lastmod>2024-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/case-studies/ecommerce-infra-code/</loc>
-    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -55,11 +12,15 @@
   </url><url>
     <loc>http://localhost:1313/case-studies/healthtech-devops/</loc>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
     <loc>http://localhost:1313/case-studies/fintech-pod/</loc>
   </url><url>
     <loc>http://localhost:1313/case-studies/insuretech-modernization/</loc>
   </url><url>
     <loc>http://localhost:1313/services/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/thanks/</loc>
   </url>

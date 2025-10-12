@@ -224,26 +224,20 @@ hugo --gc --minify
 hugo server --port 1313 --bind 0.0.0.0
 ```
 
-### Deploy to Netlify
-```bash
-# netlify.toml should have:
-[build]
-  publish = "public"
-  command = "hugo --gc --minify"
-```
+### Deploy to GitHub Pages
+Deployment is automated via GitHub Actions:
+1. Push to `master` branch
+2. GitHub Actions automatically builds and deploys
+3. Workflow file: `.github/workflows/merge-to-master.yaml`
 
-### Deploy to Vercel
-```bash
-# vercel.json should have:
-{
-  "build": {
-    "env": {
-      "HUGO_VERSION": "0.150.1"
-    }
-  },
-  "buildCommand": "hugo --gc --minify"
-}
-```
+**Manual trigger:**
+- Go to repository → Actions → "Deploy Hugo site to Pages"
+- Click "Run workflow" → "Run workflow"
+
+**Configuration:**
+- Hugo Version: 0.128.0 (defined in workflow)
+- Build command: `hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"`
+- Output: `./public` uploaded to GitHub Pages
 
 ---
 
