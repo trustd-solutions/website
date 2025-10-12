@@ -63,6 +63,15 @@ html {
     text-align: center;
 }
 
+/* Tighter spacing for About page sections */
+.single-page-content .section {
+    padding: 1.5rem 0;
+}
+
+.single-page-content .section:first-child {
+    padding-top: 2rem;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -610,6 +619,11 @@ form .hidden {
 /* Service sections spacing */
 .section + .section {
     margin-top: 4rem;
+}
+
+/* Tighter spacing for About page */
+.single-page-content .section + .section {
+    margin-top: 2rem;
 }
 
 /* Center CTA buttons in sections */
