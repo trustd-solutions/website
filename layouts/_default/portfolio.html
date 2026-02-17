@@ -46,7 +46,7 @@
         <div class="slide testimonial-card">
           <p class="testimonial-quote">"{{ .quote }}"</p>
           <div class="testimonial-author">
-            <p class="testimonial-name">{{ .name }}</p>
+            {{ with .name }}<p class="testimonial-name">{{ . }}</p>{{ end }}
             <p class="testimonial-role">{{ .role }}, {{ .company }}</p>
           </div>
         </div>

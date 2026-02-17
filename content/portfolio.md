@@ -1,12 +1,12 @@
 ---
 title: Portfolio - TrustD Solutions
 layout: portfolio
-description: DevOps transformation case studies and projects
+description: "See how TrustD Solutions helps teams achieve faster deployments, cost savings, and reliable infrastructure. Engineering transformation examples."
 
 hero:
   tagline: "Our Work"
   heading: "Proven Results, Real Impact"
-  description: "From startups to enterprise teams, we've helped organizations transform their infrastructure and delivery pipelines. Here's a look at what we've built."
+  description: "From startups to enterprise teams, here are examples of the kind of engineering transformations we deliver."
 
 projects:
   - title: "E-Commerce Platform Migration"
@@ -25,45 +25,30 @@ projects:
       - "Automated compliance checks"
   - title: "SaaS Observability Stack"
     tagline: "Monitoring & SRE"
-    description: "Implemented a comprehensive observability stack for a growing SaaS platform—monitoring, alerting, log aggregation, and 24×7 incident response with automated runbooks."
+    description: "Implemented a comprehensive observability stack for a growing SaaS platform: Monitoring, alerting, log aggregation, and 24x7 incident response with automated runbooks."
     results:
       - "MTTR reduced by 70%"
-      - "24×7 incident coverage"
+      - "24x7 incident coverage"
       - "Proactive issue detection"
 
 testimonials:
-  - quote: "TrustD transformed our deployments from hours to minutes. We haven't had a single deployment-related outage since."
-    name: "Sarah Chen"
+  - quote: "Our deployments went from hours to minutes. We haven't had a deployment-related outage since the migration."
     role: "VP of Engineering"
-    company: "ShopStream"
-  - quote: "Their TEB sessions gave us clarity we never had before. The team didn't just build infrastructure—they taught us how to think about DevOps strategically."
-    name: "Marcus Rivera"
+    company: "E-Commerce Platform"
+  - quote: "The TEB sessions gave us clarity we never had before. They didn't just build infrastructure. They taught us how to think about engineering strategically."
     role: "CTO"
-    company: "PaySecure Financial"
-  - quote: "The observability stack they implemented caught a critical issue within the first week that would have cost us thousands. Their 24×7 support gives us peace of mind."
-    name: "Aisha Patel"
+    company: "Financial Services Company"
+  - quote: "The observability stack caught a critical issue within the first week that would have cost us thousands."
     role: "Head of Platform"
-    company: "CloudMetrics SaaS"
-  - quote: "We went from deploying once a month to multiple times a day. TrustD's CI/CD expertise completely changed how our engineering team operates."
-    name: "James Okonkwo"
-    role: "Engineering Manager"
-    company: "Veloce Logistics"
-  - quote: "Their Terraform modules saved us weeks of work. Everything is version-controlled, repeatable, and our infrastructure finally feels like a product, not a burden."
-    name: "Elena Vargas"
-    role: "Lead DevOps Engineer"
-    company: "MediBridge Health"
-  - quote: "TrustD helped us migrate to Kubernetes without a single minute of downtime. Their team felt like an extension of ours from day one."
-    name: "David Kim"
-    role: "Director of Infrastructure"
-    company: "NexGen Analytics"
+    company: "SaaS Company"
 
 technologies:
   heading: "Technologies We Work With"
-  description: "Our expertise spans Docker, Kubernetes, AWS, GCP, Terraform, Ansible, Packer, GitHub Actions, and more. We also provide guidance on security best practices, cloud-native development (12-factor manifesto), and fostering a strong DevOps culture within your team."
+  description: "Our expertise spans Kubernetes, Terraform, Crossplane, Pulumi, AWS, GCP, Python, Go, Ruby, PHP, Java, TypeScript, GitHub Actions, and Sentry. For computer vision and ML, we work with PyTorch, TensorFlow, OpenCV, Hugging Face, MLflow, and Kubeflow. We guide teams on cloud-native development, security best practices, and building a strong engineering culture."
   image: "/assets/img/logos.png"
 
 cta:
   heading: "Have a project in mind?"
-  description: "Let's talk about how we can help you achieve similar results with a tailored DevOps strategy for your team."
-  cta_text: "Lets Talk!"
+  description: "Let's talk about how we can help you achieve similar results with a tailored engineering strategy for your team."
+  cta_text: "Start Your Project"
 ---
