@@ -10,11 +10,11 @@
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="active" href="/">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a class="getstarted" href="" class="black" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd/30min'});return false;">Lets Talk!</a></li>
+        <li><a {{ if .IsHome }}class="active"{{ end }} href="/">Home</a></li>
+        <li><a {{ if eq .Section "services" }}class="active"{{ end }} href="/services/">Services</a></li>
+        <li><a {{ if eq .Section "about" }}class="active"{{ end }} href="/about/">About Us</a></li>
+        <li><a {{ if eq .Section "portfolio" }}class="active"{{ end }} href="/portfolio/">Portfolio</a></li>
+        <li><a class="getstarted" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd/30min'});return false;">Lets Talk!</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>

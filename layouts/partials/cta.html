@@ -4,11 +4,9 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-9">
-        <h2>Ready to get started?</h2>
-        <p>
-          Spend less time experimenting with tools and more time delivering products to market with our streamlined solutions.
-        </p>
-        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd/30min'});return false;">Lets Talk!</a>
+        <h2>{{ .Params.cta.heading }}</h2>
+        <p>{{ .Params.cta.description }}</p>
+        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd/30min'});return false;">{{ .Params.cta.cta_text }}</a>
       </div>
     </div>
   </div>
