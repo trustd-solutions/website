@@ -36,6 +36,31 @@
 </section>
 <!-- End Case Studies -->
 
+<!-- ======= Testimonials ======= -->
+<div class="container">
+  <div class="carousel-container">
+    <h2 class="title">What Our Clients Say</h2>
+    <div class="carousel-wrapper">
+      <div class="carousel testimonials-carousel">
+        {{ range .Params.testimonials }}
+        <div class="slide testimonial-card">
+          <p class="testimonial-quote">"{{ .quote }}"</p>
+          <div class="testimonial-author">
+            <p class="testimonial-name">{{ .name }}</p>
+            <p class="testimonial-role">{{ .role }}, {{ .company }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="navigation">
+      <button class="nav-button testimonial-prev">&larr;</button>
+      <button class="nav-button testimonial-next">&rarr;</button>
+    </div>
+  </div>
+</div>
+<!-- End Testimonials -->
+
 <!-- ======= Technologies ======= -->
 <section class="text">
   <div class="container">

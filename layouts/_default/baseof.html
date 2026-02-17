@@ -22,45 +22,58 @@
       ><i class="bi bi-arrow-up-short"></i
     ></a>
 
-    {{ if .IsHome }}
     <script>
-      const carousel = document.querySelector(".carousel");
-      const slides = document.querySelectorAll(".slide");
-      const prevButton = document.querySelector(".prev");
-      const nextButton = document.querySelector(".next");
+      function initCarousel(carouselEl, prevEl, nextEl) {
+        const slides = carouselEl.querySelectorAll(".slide");
+        if (!slides.length) return;
 
-      let currentIndex = 0;
-      const slidesPerView = 3;
-      const totalSlides = slides.length;
+        let currentIndex = 0;
 
-      function updateCarousel() {
-        const slideWidth = slides[0].offsetWidth + 20; // Including margin
-        carousel.style.transform = `translateX(-${
-          currentIndex * slideWidth
-        }px)`;
+        function getSlidesPerView() {
+          if (window.innerWidth <= 768) return 1;
+          if (window.innerWidth <= 1024) return 2;
+          return 3;
+        }
+
+        function updateCarousel() {
+          const slideWidth = slides[0].offsetWidth + 20;
+          carouselEl.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        }
+
+        prevEl.addEventListener("click", () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+          }
+        });
+
+        nextEl.addEventListener("click", () => {
+          const slidesPerView = getSlidesPerView();
+          if (currentIndex < slides.length - slidesPerView) {
+            currentIndex++;
+            updateCarousel();
+          }
+        });
+
+        updateCarousel();
+        window.addEventListener("resize", () => {
+          const slidesPerView = getSlidesPerView();
+          if (currentIndex > slides.length - slidesPerView) {
+            currentIndex = Math.max(0, slides.length - slidesPerView);
+          }
+          updateCarousel();
+        });
       }
 
-      prevButton.addEventListener("click", () => {
-        if (currentIndex > 0) {
-          currentIndex--;
-          updateCarousel();
+      document.querySelectorAll(".carousel-container").forEach((container) => {
+        const carousel = container.querySelector(".carousel");
+        const prev = container.querySelector(".nav-button:first-child");
+        const next = container.querySelector(".nav-button:last-child");
+        if (carousel && prev && next) {
+          initCarousel(carousel, prev, next);
         }
       });
-
-      nextButton.addEventListener("click", () => {
-        if (currentIndex < totalSlides - slidesPerView) {
-          currentIndex++;
-          updateCarousel();
-        }
-      });
-
-      // Initial setup
-      updateCarousel();
-
-      // Update on resize
-      window.addEventListener("resize", updateCarousel);
     </script>
-    {{ end }}
 
     {{ partial "script.html" .}}
   </body>

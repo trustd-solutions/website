@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.155.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55318&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.155.3">
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -198,45 +198,58 @@
       ><i class="bi bi-arrow-up-short"></i
     ></a>
 
-    
     <script>
-      const carousel = document.querySelector(".carousel");
-      const slides = document.querySelectorAll(".slide");
-      const prevButton = document.querySelector(".prev");
-      const nextButton = document.querySelector(".next");
+      function initCarousel(carouselEl, prevEl, nextEl) {
+        const slides = carouselEl.querySelectorAll(".slide");
+        if (!slides.length) return;
 
-      let currentIndex = 0;
-      const slidesPerView = 3;
-      const totalSlides = slides.length;
+        let currentIndex = 0;
 
-      function updateCarousel() {
-        const slideWidth = slides[0].offsetWidth + 20; 
-        carousel.style.transform = `translateX(-${
-          currentIndex * slideWidth
-        }px)`;
+        function getSlidesPerView() {
+          if (window.innerWidth <= 768) return 1;
+          if (window.innerWidth <= 1024) return 2;
+          return 3;
+        }
+
+        function updateCarousel() {
+          const slideWidth = slides[0].offsetWidth + 20;
+          carouselEl.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        }
+
+        prevEl.addEventListener("click", () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+          }
+        });
+
+        nextEl.addEventListener("click", () => {
+          const slidesPerView = getSlidesPerView();
+          if (currentIndex < slides.length - slidesPerView) {
+            currentIndex++;
+            updateCarousel();
+          }
+        });
+
+        updateCarousel();
+        window.addEventListener("resize", () => {
+          const slidesPerView = getSlidesPerView();
+          if (currentIndex > slides.length - slidesPerView) {
+            currentIndex = Math.max(0, slides.length - slidesPerView);
+          }
+          updateCarousel();
+        });
       }
 
-      prevButton.addEventListener("click", () => {
-        if (currentIndex > 0) {
-          currentIndex--;
-          updateCarousel();
+      document.querySelectorAll(".carousel-container").forEach((container) => {
+        const carousel = container.querySelector(".carousel");
+        const prev = container.querySelector(".nav-button:first-child");
+        const next = container.querySelector(".nav-button:last-child");
+        if (carousel && prev && next) {
+          initCarousel(carousel, prev, next);
         }
       });
-
-      nextButton.addEventListener("click", () => {
-        if (currentIndex < totalSlides - slidesPerView) {
-          currentIndex++;
-          updateCarousel();
-        }
-      });
-
-      
-      updateCarousel();
-
-      
-      window.addEventListener("resize", updateCarousel);
     </script>
-    
 
     
 <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
