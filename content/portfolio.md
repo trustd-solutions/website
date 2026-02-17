@@ -1,5 +1,6 @@
 ---
 title: Portfolio - TrustD Solutions
+type: portfolio
 description: DevOps transformation case studies and projects
 
 hero:

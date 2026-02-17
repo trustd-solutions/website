@@ -413,6 +413,12 @@ h6 {
   margin-bottom: 16px;
 }
 
+.slide i {
+  font-size: 36px;
+  margin-bottom: 16px;
+  display: block;
+}
+
 .slide h3 {
   font-size: 18px;
   font-weight: bold;
