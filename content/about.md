@@ -1,6 +1,6 @@
 ---
 title: About Us - TrustD Solutions
-type: about
+layout: about
 description: Meet the team behind TrustD Solutions
 
 hero:

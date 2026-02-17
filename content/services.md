@@ -1,6 +1,6 @@
 ---
 title: Services - TrustD Solutions
-type: services
+layout: services
 description: DevOps and cloud infrastructure services to accelerate your delivery
 
 hero:
