@@ -32,15 +32,15 @@ projects:
       - "Proactive issue detection"
 
 testimonials:
-  - quote: "Our deployments went from hours to minutes. We haven't had a deployment-related outage since the migration."
-    role: "VP of Engineering"
-    company: "E-Commerce Platform"
+  - quote: "TrustD has been a great partner in building an excellent development team for our U.S. real estate software. Their developers are talented, motivated, easy to work with, and more cost-effective than comparable U.S. hires. Their management team is always responsive and seems genuinely invested in the success of both their clients and contractors!"
+    role: "Co-Founder"
+    company: "Propwire"
+  - quote: "TrustD provided us with high quality candidates with exceptional cultural fit. When faced with unique operational challenges, TrustD was open to quickly adapting and finding creative solutions that unblocked us and kept things moving. These guys are the real deal! Our team of 5 is comprised of 100% TrustD talent"
+    role: "CTO"
+    company: "Propwire"
   - quote: "The TEB sessions gave us clarity we never had before. They didn't just build infrastructure. They taught us how to think about engineering strategically."
     role: "CTO"
-    company: "Financial Services Company"
-  - quote: "The observability stack caught a critical issue within the first week that would have cost us thousands."
-    role: "Head of Platform"
-    company: "SaaS Company"
+    company: "Propwire"
 
 technologies:
   heading: "Technologies We Work With"
