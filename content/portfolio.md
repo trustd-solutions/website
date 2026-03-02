@@ -34,13 +34,13 @@ projects:
 testimonials:
   - quote: "TrustD has been a great partner in building an excellent development team for our U.S. real estate software. Their developers are talented, motivated, easy to work with, and more cost-effective than comparable U.S. hires. Their management team is always responsive and seems genuinely invested in the success of both their clients and contractors!"
     role: "Co-Founder"
-    company: "Propwire"
+    company: "Propwire LLC"
   - quote: "TrustD provided us with high quality candidates with exceptional cultural fit. When faced with unique operational challenges, TrustD was open to quickly adapting and finding creative solutions that unblocked us and kept things moving. These guys are the real deal! Our team of 5 is comprised of 100% TrustD talent"
     role: "CTO"
-    company: "Propwire"
-  - quote: "The TEB sessions gave us clarity we never had before. They didn't just build infrastructure. They taught us how to think about engineering strategically."
-    role: "CTO"
-    company: "Propwire"
+    company: "Propwire LLC"
+  - quote: "The Trustd team has been a valued partner in supporting our AWS, Terraform, and Kubernetes technical stack. From cloud upgrades to cybersecurity initiatives, they consistently demonstrate deep technical expertise, responsiveness, and strong alignment with our organizational goals. Their structured and highly effective approach has meaningfully enhanced the stability and maturity of our cloud operations. I highly recommend Trustd and their team."
+    role: "CEO"
+    company: "Blue Charm Adherence Inc."
 
 technologies:
   heading: "Technologies We Work With"
