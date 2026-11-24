@@ -8,5 +8,5 @@
 ## Editing pages
 
 - Edit page copy in the YAML front matter under `content/`. The layouts read named `.Params` fields and do not render the Markdown body. Pair `content/_index.md` with `layouts/_default/home.html`; the other pages select their template in that directory with `layout:`.
-- The navigation links are hardcoded in `layouts/partials/header.html`. When changing the booking URL, update the header, `layouts/partials/cta.html` and the hero in `layouts/_default/home.html`.
-- CSS and JS load directly from `static/assets/` via the `head.html` and `script.html` partials; there is no npm build step. The carousel controls live inline in `layouts/_default/baseof.html`.
+- The navigation links are hardcoded in `layouts/partials/header.html`. Set the shared Calendly URL in `config.toml` under `[params].bookingURL`.
+- CSS and JS load directly from `static/assets/` via the `head.html` and `script.html` partials; there is no npm build step. Carousel and mobile menu behavior live in `static/assets/js/main.js`.

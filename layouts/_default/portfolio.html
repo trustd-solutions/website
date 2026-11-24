@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- ======= Page Hero ======= -->
-<section class="page-hero" data-aos="fade-up">
+<section class="page-hero" data-reveal>
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-8">
@@ -18,7 +18,7 @@
   <div class="container">
     <div class="row portfolio-grid">
       {{ range .Params.projects }}
-      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+      <div class="col-lg-4 col-md-6 mb-4" data-reveal>
         <div class="slide portfolio-card">
           <p><span>{{ .tagline }}</span></p>
           <h3>{{ .title }}</h3>
@@ -53,9 +53,9 @@
         {{ end }}
       </div>
     </div>
-    <div class="navigation">
-      <button class="nav-button testimonial-prev">&larr;</button>
-      <button class="nav-button testimonial-next">&rarr;</button>
+    <div class="navigation" hidden>
+      <button class="nav-button prev" aria-label="Previous testimonial">&larr;</button>
+      <button class="nav-button next" aria-label="Next testimonial">&rarr;</button>
     </div>
   </div>
 </div>
