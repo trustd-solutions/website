@@ -1,22 +1,21 @@
 <!-- ======= Header ======= -->
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <header id="header" class="fixed-top d-flex align-items-center">
   <div class="container d-flex align-items-center justify-content-between">
     <div class="logo">
       <a href="/"
-        ><img src="/assets/img/logo.png" alt="" class="img-fluid"
+        ><img src="/assets/img/logo.png" alt="TrustD Solutions home" class="img-fluid"
       /></a>
     </div>
 
     <nav id="navbar" class="navbar">
-      <ul>
-        <li><a {{ if .IsHome }}class="active"{{ end }} href="/">Home</a></li>
-        <li><a {{ if eq .Section "services" }}class="active"{{ end }} href="/services/">Services</a></li>
-        <li><a {{ if eq .Section "about" }}class="active"{{ end }} href="/about/">About Us</a></li>
-        <li><a {{ if eq .Section "portfolio" }}class="active"{{ end }} href="/portfolio/">Portfolio</a></li>
-        <li><a class="getstarted" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucas-trustd/30min'});return false;">Let's Talk!</a></li>
+      <button type="button" class="mobile-nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-links"><i class="bi bi-list" aria-hidden="true"></i></button>
+      <ul id="nav-links">
+        <li><a {{ if .IsHome }}aria-current="page" class="active"{{ end }} href="/">Home</a></li>
+        <li><a {{ if eq .RelPermalink ("services/" | relURL) }}aria-current="page" class="active"{{ end }} href="/services/">Services</a></li>
+        <li><a {{ if eq .RelPermalink ("about/" | relURL) }}aria-current="page" class="active"{{ end }} href="/about/">About Us</a></li>
+        <li><a {{ if eq .RelPermalink ("portfolio/" | relURL) }}aria-current="page" class="active"{{ end }} href="/portfolio/">Portfolio</a></li>
+        <li><a class="getstarted booking-link" href="{{ site.Params.bookingURL }}">Let's Talk!</a></li>
       </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>
     <!-- .navbar -->
   </div>

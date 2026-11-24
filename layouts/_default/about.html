@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- ======= Page Hero ======= -->
-<section class="page-hero" data-aos="fade-up">
+<section class="page-hero" data-reveal>
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-8">
@@ -17,12 +17,12 @@
 <section class="text dark">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6" data-aos="fade-up">
+      <div class="col-lg-6" data-reveal>
         <p><span>{{ .Params.story.tagline }}</span></p>
         <h2>{{ .Params.story.heading }}</h2>
         <p>{{ .Params.story.description }}</p>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center" data-aos="fade-up">
+      <div class="col-lg-6 d-flex justify-content-center" data-reveal>
         <img src="{{ .Params.story.image }}" alt="Team" class="img-fluid" />
       </div>
     </div>
@@ -41,7 +41,7 @@
     </div>
     <div class="row values-grid">
       {{ range .Params.values }}
-      <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
+      <div class="col-lg-6 col-md-6 mb-4" data-reveal>
         <div class="slide">
           <i class="{{ .icon }}"></i>
           <h3>{{ .title }}</h3>

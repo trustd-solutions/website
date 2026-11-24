@@ -72,12 +72,13 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-in {
+    animation: reveal-in 350ms ease-out;
+  }
+  @keyframes reveal-in {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: none; }
   }
 }
 
@@ -169,6 +170,9 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
+  border: 0;
+  background: transparent;
+  padding: 8px;
   color: #3c4133;
   font-size: 28px;
   cursor: pointer;
@@ -177,7 +181,7 @@ h6 {
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.navbar-mobile .mobile-nav-toggle {
   color: #fff;
 }
 
@@ -244,7 +248,8 @@ h6 {
 # Hero
 --------------------------------------------------------------*/
 .hero {
-  height: 90vh;
+  min-height: 90vh;
+  padding: 3rem 0;
   background-color: var(--white-color);
 }
 .hero p span {
@@ -378,17 +383,23 @@ h6 {
 }
 
 .carousel-wrapper {
-  overflow: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 10px;
 }
 
 .carousel {
   display: flex;
   align-items: stretch;
-  transition: transform 0.3s ease-in-out;
+}
+
+.carousel .slide {
+  flex: 0 0 calc(100% / 3 - 20px);
+  min-width: 0;
+  scroll-snap-align: start;
 }
 
 .slide {
-  min-width: calc(33.333% - 20px);
   margin: 0 10px;
   background-color: #f3f4f6;
   padding: 32px;
@@ -397,14 +408,14 @@ h6 {
   flex-direction: column;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .slide {
-    min-width: calc(50% - 20px);
+  .carousel .slide {
+    flex-basis: calc(50% - 20px);
   }
 }
 
 @media (max-width: 768px) {
-  .slide {
-    min-width: calc(100% - 20px);
+  .carousel .slide {
+    flex-basis: calc(100% - 20px);
   }
 }
 
@@ -455,7 +466,12 @@ h6 {
   justify-content: center;
 }
 
-.nav-button:hover {
+.nav-button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.nav-button:hover:not(:disabled) {
   background-color: #f3f4f6;
 }
 
@@ -467,7 +483,7 @@ h6 {
 }
 @media (max-width: 769px) {
   .hero {
-    height: 110vh;
+    min-height: auto;
   }
   .hero,
   .text {
